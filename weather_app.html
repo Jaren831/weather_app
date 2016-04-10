@@ -1,18 +1,22 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="weather_app.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 
 <body class="container">
 	<div class="container" id = "weatherBox">
 		<div id = "weatherIcon">icon</div>
 		<div id = "temperatureBox">10000</div>
-		<div class ="container" id = "unitBox">
-			<div id = "fhrnht">F</div>
-			<div id = "celsius">C</div>
+		<div id = "unitBox">
+			<form>
+				<input type="radio" name="temp" id="fahrenheit" checked> Fahrenheit
+				<input type="radio" name="temp" id="celsius"> Celsius
+			</form>
 		</div>
-		<div id = "locationCity">San Fran</div>
+		<div id = "location">San Francisco</div>
 	</div>
 	<div class="footer"> by <a href="http://codepen.io/Jaren831/" title="Check out my portfolio!">Jaren Lynch</a></div>
+	<script type="text/javascript" src="weather_app.js"></script>
 
 </body>
