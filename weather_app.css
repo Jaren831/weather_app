@@ -1,35 +1,53 @@
 body {
-	font-family: "Roboto";
-	background-color: #E3F2FD;
+	font-family: "Roboto";	
+	background-color: #629d97;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
+	align-items: center;
+	color: #4d58b6;
 }
 
 #weatherBox {
-	background-color: #4DB6AC;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	background-color: #4DB6AC;
 	border-radius: 5px;
-	min-width: 25%;
-	min-height: 15%;
-	position: relative;
-	margin: auto;
+ 	width: 30%;
+ 	height: 30%;
+}
+
+#weatherIcon {
+	height: 4em;
+	width: 4em;
+	margin-bottom: -1em;
+}
+
+#temperatureBox {
+	font-size: 2em;
 }
 
 #unitBox {
-	display: flex;
-	flex-direction: row;
-	background-color: white;
-	border-radius: 5px;
+	font-size: 1em;
+	margin-bottom: -1em;
+}
+
+#location {
+	font-size: 1em;
 }
 
 .footer {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%;
+  font-size: 1em;
+  color: #4d58b6;
+}
+.footer a {
+  font-weight:800;
+  color:  #4d58b6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color:black;
 }
